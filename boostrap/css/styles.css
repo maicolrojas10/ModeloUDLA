@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.LogoGobier {
+    height: 50px;
+    width: auto;
+}
+
+.LogoUniamazonia {
+    height: 100%;
+    width: auto;
+}
+
+#searh {
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+/* Evitar que los submenús se salgan de la pantalla */
+@media (max-width: 992px) {
+    .dropdown-submenu .dropdown-menu {
+        left: auto;
+        right: 100%;
+    }
+}
+
+.encabezado_menu {
+    background-color: #166717;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.encabezado_menu img {
+    margin-left: 20PX;
+    /* Ajusta el valor según necesites */
+}
+
+.hr-banner {
+    border: 2px solid #019e3b;
+
+}
+
+.accordion-body img {
+    width: 100%;
+    height: 10%;
+}
+
+.vinculo {
+    color: #ffffff;
+    width: 50px; 
+    height: 30px; 
+    background-color: #166717;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex; /* Permite centrar el texto */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    font-size: 16px; /* Ajusta el tamaño del texto */
+}
+
+.vinculo:hover {
+    color: #ffffff;
+    background-color: #2dba2f;
+    border-radius: 2px;
+    list-style: none;
+}
+
+.accordion-button {
+    background-color: #166717;
+    color: #ffffff;
+    width: 100%;
+}
+
+.position-relative img {
+    width: 20%;
+    height: 100%;
+}
+
+.contenedor {
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #066a18;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+button:hover {
+    background-color: #129c37;
+}
+
