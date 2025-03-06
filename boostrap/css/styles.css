@@ -130,3 +130,126 @@ button:hover {
     background-color: #129c37;
 }
 
+.redes {
+    display: flex;
+    gap: 10px; /* Ajusta el espacio entre los iconos */
+    align-items: center;
+}
+
+.tamaño-boton{
+    display: flexbox;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+   align-items: center;
+}
+
+.tamaño-boton:hover {
+    background-color: #971212;
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(176, 0, 0);
+    color: white;
+}
+
+.tamaño-boton2{
+    background-color: rgb(213, 213, 213);
+    color: black;
+    border: none;  
+  
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+}
+.footer p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+.vigilada {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-interes{
+    background-color: #b90c0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-interes:hover {
+    background-color: #078109;
+    animation: 0.5s;
+}
+
+.offcanvas-header{
+    background-color: #166717;
+    color: white;
+}
+
+.h6-menu{
+    color: rgb(180, 8, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.quit-vieñ li{
+    list-style:none;
+}
+
+.btn-close{
+    border: 2px solid black;
+    transition: transform 0.3s ease-in-out;
+   
+}
+
+.btn-close:hover{
+    transform: rotate(180deg);
+    background-color: #b90c0c;
+}
+
+.text-center {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+}
+
+.img-banner2 {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    gap: 15px; /* Espacio entre imágenes */
+    flex-wrap: wrap; /* Para que se ajusten si la pantalla es pequeña */
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.img-banner2 img {
+    width: 50px; /* Ajusta el tamaño de las imágenes */
+    height: 50px;
+}
+
+.img-banner2 img:hover {
+    transform: scale(1.5); /* Hace zoom en la imagen */
+    transition: transform 0.3s ease-in-out; /* Agrega una animación suave */
+}
+
+
+.ancho-img-banner2 img {
+    width: 50% !important; 
+    margin: 5px;
+
+}
